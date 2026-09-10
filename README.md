@@ -165,9 +165,9 @@ uv run pytest storage_service/tests/test_api/test_objects.py::test_set_object --
 
 ## Tech stack
 
-**Runtime** · Python 3.12 · FastAPI · uvicorn · pydantic-settings · aiocache · aiofiles · orjson · APScheduler · structlog · prometheus-fastapi-instrumentator · fastapi-healthchecks
-**Tooling** · uv · ruff · mypy · pytest · pytest-asyncio · pytest-cov · pre-commit · hatchling
-**Infra** · Docker (multi-stage, non-root, healthcheck) · Kubernetes (kustomize, PV/PVC, NetworkPolicy, securityContext, three probes) · GitHub Actions (lint, tests, Trivy scan, kubeconform)
+- **Runtime** · Python 3.12 · FastAPI · uvicorn · pydantic-settings · aiocache · aiofiles · orjson · APScheduler · structlog · prometheus-fastapi-instrumentator · fastapi-healthchecks
+- **Tooling** · uv · ruff · mypy · pytest · pytest-asyncio · pytest-cov · pre-commit · hatchling
+- **Infra** · Docker (multi-stage, non-root, healthcheck) · Kubernetes (kustomize, PV/PVC, NetworkPolicy, securityContext, three probes) · GitHub Actions (lint, tests, Trivy scan, kubeconform)
 
 ## Design notes
 
